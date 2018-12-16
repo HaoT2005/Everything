@@ -1,0 +1,101 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+.intro{
+  background-color: #e0ebe8;
+  width: 100%;
+  height: 745px;
+  display: grid;
+}
+.name{
+  align-self: center;
+  justify-self: center;
+}
+.name h1{
+  font-size: 30px;
+}
+.name h4{
+  font-size: 20px;
+  color: #92c597;
+  padding-left: 60px;
+}
+.keys{
+  background-color: white;
+  width: 100%;
+  display: inline;
+}
+.keys h1{
+  text-align: center;
+  font-size: 30px;
+  color: #2c9595;
+}
+.firstcolumn{
+  margin-top: 100px;
+  padding-left: 200px;
+  float: left;
+}
+.firstcolumn img{
+  border-width: 5px;
+  border-style: solid;
+  border-color: #add8e6;
+  margin-bottom: -5px;
+}
+.firstcolumn p{
+  border-width: 3px;
+  border-style: solid;
+  border-color: #add8e6;
+  margin-bottom: 100px;
+}
+.family{
+  text-align: center;
+}
+.love{
+  text-align: center;
+}
+.secondcolumn{
+  margin-top: 100px;
+  padding-right: 200px;
+  float: right;
+}
+.secondcolumn img{
+  border-width: 3px;
+  border-style: solid;
+  border-color: #add8e6;
+  margin-bottom: -5px;
+}
+.secondcolumn p{
+  border-width: 3px;
+  border-style: solid;
+  border-color: #add8e6;
+  margin-bottom: 100px;
+}
+.money{
+  text-align: center;
+}
+.know{
+  text-align: center;
+}
+.outro{
+  background-color: #c8f7c5;
+  width: 100%;
+  margin-top: 800px;
+  height: 350px;
+  display: grid;
+}
+.remember {
+  align-self: center;
+  justify-self: center;
+}
+.remember h1{
+  font-size: 30px;
+}
+.remember h4{
+  font-size: 20px;
+  padding-left: 20px;
+}

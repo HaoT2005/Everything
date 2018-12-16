@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Key words of life</title>
+  </head>
+  <body>
+    <style >
+    @import url('https://fonts.googleapis.com/css?family=Oxygen');
+    body{
+      background-color: #24272E
+    }
+    .input{
+      text-align: center;
+      color: lightblue;
+      font-family: Oxygen;
+      font-size: 15px;
+    }
+    h1{
+      text-align: center;
+      color:lightblue;
+      font-family: Oxygen;
+      font-size: 70px;
+    }
+    .submit{
+
+    }
+    .proud{
+      text-align: center;
+      color: red;
+    }
+    .money{
+      text-align: center;
+      color: green;
+    }
+    .family{
+      text-align: center;
+      color: lightblue;
+    }
+    .remember{
+      text-align: center;
+      color: yellow;
+    }
+
+    </style>
+    <h1>Key words of life</h1>
+    <div class="input">
+      <form action="key.html">
+        <div id="username">
+          UserName: <input type="text" name="fname"><br>
+        </div>
+    <br>
+    <div id ="password">
+      Password: <input type="password" name="lname"><br>
+    </div>
+    <br>
+    <div id="submit"class="submit">
+    <input type="submit" value="Submit">
+    </div>
+  </form>
+    </div>
+    <script lang="js">
+    const username_div = document.getElementById('username')
+    const password_div = document.getElementById('password')
+    let submit_div = document.getElementById('submit')
+    submit_div = false
+    function check(){
+      if(username_div == "HaoTang" && password_div == "0938382567"){
+        window.open(key.html)
+      }
+      else {
+        alert("Wrong Username or Password")
+      }
+    }
+    function submit() {
+      submit_div.addEventListener('click', () => check());
+    }
+    submit();
+    </script>
+  </body>
+</html>

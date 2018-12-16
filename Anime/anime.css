@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+html, body{
+  margin: 0;
+  background-color: #1e2025;
+  font-family: Lato;
+}
+.sec1{
+  text-align: center;
+  color: white;
+  background: #1e2025;
+  font-size: 25px;
+  font-family: Mukta;
+}
+.sec2{
+  background-color: #dbc8be;
+  text-align: left;
+}
+.sec3{
+  background-color: #1e2025;
+  color: white;}
+.band2{
+  text-align: center;
+  font-family: Mukta;
+}
+.contactme{
+  color: #dbc8be;
+  font-family: Mukta;
+}
+.madeby{
+  text-align: center;
+}
+.place{
+  display: none;
+}
+.allanime p {
+  float: right;
+  width: 400px;
+  height: 100px;
+  margin-right: 150px;
+}
+
+.allanime img{
+  margin-left: 100px;
+}
+.vote h2{
+  color: #dbc8be;
+}
+.btn{
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  padding: .67em;
+  cursor: pointer;
+  margin: .5em 15% 2em 15%;
+  border: 2px solid #2D9CDB;
+  background-color: #24272E;
+  border-radius: 0;
+  font-family:Spicy Rice, sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 700px;
+  color: #dbc8be;
+}
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in--out;
+  text-align: center;
+}
+.email{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.submit{
+  width: 600px;
+  height: 50px;
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+}
+@media only screen and (min-width: 1000px) {
+  .allanime img{
+    margin-left: 200px;
+  }
+  .allanime p{
+    margin-right: 100px;
+  }
+  .place{
+    display: block;
+    position: absolute;
+    left: -150px;
+  }
+@media only screen and (min-width: 1200px) {
+  .allanime img {
+    margin-left: 300px;
+  }
+  .allanime p{
+    margin-right: 200px;
+  }
+  .place{
+    display: block;
+    position: absolute;
+    left: -200px;
+  }
+}
