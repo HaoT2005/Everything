@@ -1,12 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
 * {
         margin: 0;
         padding: 0;
         border: 0;
         outline: 0;
         font-size: 100%;
+        font-family: Mukta;
         vertical-align: baseline;
         background: transparent;
     }
+.logpage{
+  background-color: black;
+}
+.logpage body{
+  display: grid;
+}
+.login{
+  margin-top: 270px;
+  justify-self: center;
+  display: grid;
+  height: 200px;
+  width: 300px;
+  border-color: lightblue;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  color: lightblue;
+}
+.login input{
+  margin-top: 20px;
+  height: 30px;
+  width: 215px;
+  justify-self: center;
+  border-color: lightblue;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  color: lightblue;
+}
+.login button{
+  height: 30px;
+  width: 115px;
+  justify-self: center;
+  text-align: center;
+  border-color: lightblue;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  color: lightblue;
+  transition: all 0.3s ease;
+}
+.login button:hover{
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+}
 .intro{
   background-color: #e0ebe8;
   width: 100%;
@@ -55,7 +103,7 @@
 .family{
   text-align: center;
 }
-.love{
+.love {
   text-align: center;
 }
 .secondcolumn{
